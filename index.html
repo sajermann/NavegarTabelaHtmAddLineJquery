@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Favicon by favicon.cc - https://www.favicon.cc/?action=icon&file_id=937073 -->
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AL29vQDyx5kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIhESEREREREiERIRERERESIQEhAAAAABIhESEREREREiEBIQAAAAASIREhERERERIhASEAAAAAEiERIRERERESIQEhAAAAABIhESEREREREiIiIiIiIiIiIzMjMzMzMzIjMyMzMzMzMiMzIzMzMzMyIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+        <title>Navigate Cells</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="nav-wrapper #263238 blue-grey darken-4">
+                    <a href="#" class="brand-logo center">Navigate Cells</a>
+                </div>
+            </nav>
+    
+        </header>
+        <main>
+            <div class="col s12">
+                <table class="tableLancamentosItens lancamentosItens">
+                  <thead>
+                    <tr>
+                        <th class="label tema">ID</th>
+                        <th class="label tema">Código</th>
+                        <th class="label tema">Descrição</th>
+                        <th class="label tema">N.C.M.</th>
+                        <th class="label tema">Quant.</th>
+                        <th class="label tema">Preço</th>
+                        <th class="label tema">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr linha="0">
+                        <td tabindex="1" linha="0" locked="true" >0</td>
+                        <td tabindex="2" linha="0" locked="false"  obrigatorio="true" >1800</td>
+                        <td tabindex="3" linha="0" locked="true" >Cabo 1KV </td>
+                        <td tabindex="4" linha="0" locked="true" >8544.49.00</td>
+                        <td tabindex="5" linha="0" locked="false"  obrigatorio="true"  >506,3</td>
+                        <td tabindex="6" linha="0" locked="false" >R$50,60</td>
+                        <td tabindex="7" linha="0" locked="true" >R$25.618,78</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </main>
+        <footer class="page-footer #263238 blue-grey darken-4">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Dashboard Faturamento</h5>
+                  <p class="grey-text text-lighten-4">Desenvolvido por Bruno Sájermann.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Sobre Autor</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="http://bruno.sajermann.com/" target="_blak">Site</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/devbrunosajermann/" target="_blak">Linkedin</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/sajermann" target="_blak">Github</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+                © 2020 Copyright
+                <a class="grey-text text-lighten-4 right" href="#!">Sobre</a>
+              </div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="Scripts/addLine.js"></script>
+        <script type="text/javascript" src="Scripts/navigateCells.js"></script>
+        <script type="text/javascript" src="Scripts/createInput.js"></script>
+    </body>
+</html>
